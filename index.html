@@ -1,0 +1,254 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logoAba8.png">
+
+  <title>Pro Cell Assistência Técnica | Foz do Iguaçu</title>
+  <meta name="description" content="Assistência técnica especializada em celulares. Reparos em placas, troca de telas, baterias e conectores. Atendimento das 9h às 21h30. Rua Antônio Alves, 704 - Cidade Nova 2." />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <div class="brand">
+        <img src="assets/img/procel1.jpeg" alt="Pro Cell Assistência Técnica" class="header__logo">
+      </div>
+
+      <nav class="nav" id="nav">
+        <a href="#servicos">Serviços</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+
+      <a class="btn btn--primary header__cta" href="https://wa.me/5545920003661" target="_blank" rel="noopener">
+        Chamar no WhatsApp
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div>
+        <p class="badge">Atendimento todos os dias • 9h às 21h30</p>
+
+        <h1>Assistência técnica especializada em celulares há mais de <span class="highlight">15 anos</span></h1>
+
+        <p class="hero__text">
+          Reparos avançados em placa, troca de telas, baterias e conectores.
+          Atendimento rápido, com garantia e peças de qualidade.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://wa.me/5545920003661" target="_blank" rel="noopener">Solicitar orçamento</a>
+          <a class="btn btn--ghost" href="#servicos">Ver serviços</a>
+        </div>
+
+        <div class="hero__bullets">
+          <div class="bullet">⚡ Conserto na hora (quando possível)</div>
+          <div class="bullet">✅ Garantia nos serviços</div>
+          <div class="bullet">💳 Até 12x no cartão</div>
+        </div>
+      </div>
+
+      <div class="hero__card">
+        <h2>Informações</h2>
+
+        <ul class="list">
+          <li><strong>WhatsApp:</strong> <span id="copyPhone">(45) 92000-3661</span></li>
+          <li><strong>Endereço:</strong> <span id="copyAddress">Rua Antônio Alves, 704</span></li>
+          <li><strong>Bairro:</strong> Cidade Nova 2</li>
+          <li><strong>Horário:</strong> 9h às 21h30 (todos os dias)</li>
+          <li><strong>Referência:</strong> Em frente ao Cantinho da Família</li>
+        </ul>
+
+        <div class="hero__cardActions">
+          <a class="btn btn--primary btn--full" href="https://wa.me/5545920003661" target="_blank" rel="noopener">Chamar agora</a>
+
+          <div class="quick-links">
+            <a class="quick-link" href="#localizacao">📍 Ver no mapa</a>
+
+            <a class="quick-link" href="https://www.google.com/maps?q=Rua%20Ant%C3%B4nio%20Alves,%20704%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">
+              🧭 Como chegar
+            </a>
+
+            <a class="quick-link" href="https://www.instagram.com/procell_assistenciatec/" target="_blank" rel="noopener">
+              📷 Ver no Instagram
+            </a>
+          </div>
+
+          <p class="copy-hint" id="copyHint" aria-live="polite"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <h2 class="section__title">Serviços</h2>
+      <p class="section__subtitle">Tudo organizado para você encontrar rápido o que precisa.</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Assistência técnica</h3>
+          <ul>
+            <li>Reparos avançados em placas</li>
+            <li>Troca de tela</li>
+            <li>Troca de bateria</li>
+            <li>Conector de carga</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Serviços extras</h3>
+          <ul>
+            <li>Formatação</li>
+            <li>Conta Google</li>
+            <li>Conta iCloud</li>
+            <li>Desbloqueio de celular</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Loja e acessórios</h3>
+          <ul>
+            <li>Celulares novos e usados</li>
+            <li>Películas e capinhas</li>
+            <li>Acessórios para celulares</li>
+            <li>Acessórios para PC</li>
+          </ul>
+        </article>
+      </div>
+
+      <!-- Fotos (embaixo dos serviços) -->
+      <div class="service-photos" aria-label="Fotos de produtos e acessórios">
+        <figure class="photo">
+          <img src="assets/img/acessorios1.jpg" alt="Acessórios e cabos" loading="lazy">
+        </figure>
+        <figure class="photo">
+          <img src="assets/img/acessorios2.jpg" alt="Capinhas e películas" loading="lazy">
+        </figure>
+        <figure class="photo">
+          <img src="assets/img/acessorios3.jpg" alt="Produtos e vitrine" loading="lazy">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+ <!-- LOCALIZAÇÃO -->
+<section class="section section--alt" id="localizacao">
+  <div class="container">
+    <h2 class="section__title">Localização</h2>
+    <p class="section__subtitle">
+      Rua Antônio Alves, 704 • Cidade Nova 2 • Em frente ao Cantinho da Família
+    </p>
+
+    <div class="location__grid">
+      <div class="map">
+        <iframe
+          title="Mapa Pro Cell"
+          src="https://www.google.com/maps?q=Rua%20Ant%C3%B4nio%20Alves,%20704%20Foz%20do%20Igua%C3%A7u&output=embed"
+          loading="lazy"></iframe>
+      </div>
+
+      <div class="location__side">
+        <img class="location__photo" src="assets/img/fotoia.png" alt="Fachada da Pro Cell" loading="lazy">
+
+        <a class="btn btn--ghost btn--full"
+           href="https://www.google.com/maps/search/?api=1&query=Rua%20Ant%C3%B4nio%20Alves%2C%20704%2C%20Foz%20do%20Igua%C3%A7u%20PR"
+           target="_blank" rel="noopener">
+          📍 Abrir no Google Maps
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- CONTATO RÁPIDO (pequeno, dá credibilidade) -->
+  <section class="section" id="contato">
+    <div class="container">
+      <h2 class="section__title">Contato rápido</h2>
+      <p class="section__subtitle">Chame no WhatsApp, veja no mapa ou acompanhe no Instagram.</p>
+
+      <div class="contact-cards">
+        <a class="contact-card" href="https://wa.me/5545920003661" target="_blank" rel="noopener">
+          <div class="contact-card__title">WhatsApp</div>
+          <div class="contact-card__text">(45) 92000-3661</div>
+        </a>
+
+        <a class="contact-card" href="https://www.google.com/maps?q=Rua%20Ant%C3%B4nio%20Alves,%20704%20Foz%20do%20Igua%C3%A7u" target="_blank" rel="noopener">
+          <div class="contact-card__title">Endereço</div>
+          <div class="contact-card__text">Rua Antônio Alves, 704 • Cidade Nova 2</div>
+        </a>
+
+        <a class="contact-card" href="https://www.instagram.com/procell_assistenciatec/" target="_blank" rel="noopener">
+          <div class="contact-card__title">Instagram</div>
+          <div class="contact-card__text">@procell_assistenciatec</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <h2 class="section__title">Dúvidas frequentes</h2>
+
+      <div class="faq">
+        <details>
+          <summary>Tem garantia?</summary>
+          <p>Sim. Todos os serviços possuem garantia conforme o tipo de reparo.</p>
+        </details>
+        <details>
+          <summary>O conserto sai na hora?</summary>
+          <p>Quando possível, sim. Caso precise de mais tempo, geralmente fica pronto no mesmo dia.</p>
+        </details>
+        <details>
+          <summary>Parcelam no cartão?</summary>
+          <p>Sim. Trabalhamos com parcelamento em até 12x (conforme a bandeira).</p>
+        </details>
+      </div>
+
+      <div class="cta">
+        <h3>Precisa de assistência técnica confiável?</h3>
+        <a class="btn btn--primary" href="https://wa.me/5545920003661" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__left">
+        <img src="assets/img/procel1.jpeg" alt="Pro Cell Assistência Técnica" class="footer__logo" loading="lazy">
+        <p class="footer__copy">© 2026 Pro Cell Assistência Técnica - Foz do Iguaçu</p>
+      </div>
+
+      <div class="footer__right">
+        <p><strong>Horário:</strong> 9h às 21h30 (todos os dias)</p>
+        <p><strong>Endereço:</strong> Rua Antônio Alves, 704 - Cidade Nova 2</p>
+        <p><strong>WhatsApp:</strong> (45) 92000-3661</p>
+        <p><strong>Instagram:</strong> @procell_assistenciatec</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp -->
+  <a class="wa-float" href="https://wa.me/5545920003661" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+    <span class="wa-float__icon">💬</span>
+    <span class="wa-float__text">WhatsApp</span>
+  </a>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
